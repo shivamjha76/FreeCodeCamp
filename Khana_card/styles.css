@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.khana {
+    width: 140px;
+    border-radius: 3px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 170px;
+    background-color: rgb(255, 217, 0);
+    border-top: 8px dotted white;
+    border-left: 8px dotted white;
+    border-right: 8px dotted white;
+    border-bottom: 8px dotted white;
+}
+
+.about {
+   text-align: center;
+   color: rgb(0, 7, 72);
+}
